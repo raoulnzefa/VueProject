@@ -9,7 +9,7 @@
 import TempFile from "@/components/TempFile.vue";
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     TempFile,
   },

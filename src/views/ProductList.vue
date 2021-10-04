@@ -17,7 +17,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <router-link class="nav-link" to="page" href="#"
+                >Home</router-link
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Electronic Products</a>
@@ -33,7 +35,9 @@
             <button class="btn btn-outline-success" type="submit">
               Search
             </button>
-            <button class="btn btn-danger" type="button">Login</button>
+            <router-link class="nav-link" to="/login" href="#"
+              >Login</router-link
+            >
           </form>
         </div>
       </div>
@@ -97,7 +101,6 @@
             </div>
           </div>
         </div>
-
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="card" style="width: 18rem">
             <img

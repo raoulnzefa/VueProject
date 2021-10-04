@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <h1>Login to Project1 Page</h1>
     <br />
     <br />

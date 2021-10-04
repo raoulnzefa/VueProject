@@ -26,10 +26,16 @@
   color: #42b983;
 }
 
-div {
+.container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
+  align-content: normal;
+}
+
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>

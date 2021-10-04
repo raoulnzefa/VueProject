@@ -25,4 +25,11 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 </style>

@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Project1</a>
+        <a class="navbar-brand" href="#">Y Mall</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -55,7 +55,7 @@
       </div>
     </nav>
     <main class="mt-3">
-      <div class="container">
+      <!-- <div class="container">
         <div class="row mb-2">
           <div class="col-12">
             <select class="form-select">
@@ -66,9 +66,9 @@
             </select>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="container">
+      <div id="cards" class="container">
         <div class="col-xl-3 col-lg-4 col-md-6">
           <div class="card" style="width: 18rem">
             <img
@@ -409,3 +409,9 @@
     </main>
   </div>
 </template>
+<style>
+#cards
+{
+  max-width: 1800px;
+}
+</style>

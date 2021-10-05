@@ -18,8 +18,7 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <router-link class="nav-link" to="page" href="#"
-                >Home</router-link
-              >
+                >Home</router-link>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Electronic Products</a>
@@ -98,7 +97,8 @@
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
                   >
-                    Review
+                    <router-link class="nav-link" to="review" href="#"
+                >Review</router-link>
                   </button>
                 </div>
                 <select class="form-select-sm form-select-sm">
@@ -142,7 +142,8 @@
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
                   >
-                    Review
+                    <router-link class="nav-link" to="review" href="#"
+                >Review</router-link>
                   </button>
                 </div>
                 <select class="form-select-sm form-select-sm">
@@ -186,7 +187,8 @@
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
                   >
-                    Review
+                    <router-link class="nav-link" to="review" href="#"
+                >Review</router-link>
                   </button>
                 </div>
                 <select class="form-select-sm form-select-sm">
@@ -230,7 +232,8 @@
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
                   >
-                    Review
+                    <router-link class="nav-link" to="review" href="#"
+                >Review</router-link>
                   </button>
                 </div>
                 <select class="form-select-sm form-select-sm">
@@ -274,7 +277,8 @@
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
                   >
-                    Review
+                    <router-link class="nav-link" to="review" href="#"
+                >Review</router-link>
                   </button>
                 </div>
                 <select class="form-select-sm form-select-sm">
@@ -318,7 +322,8 @@
                     type="button"
                     class="btn btn-sm btn-outline-secondary"
                   >
-                    Review
+                    <router-link class="nav-link" to="review" href="#"
+                >Review</router-link>
                   </button>
                 </div>
                 <select class="form-select-sm form-select-sm">

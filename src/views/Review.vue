@@ -61,7 +61,7 @@
                 <div class="review-block">
                     <div class="row">
                         <div class="col-sm-3">
-                            <img src="" class="img-rounded">
+                            <img src="../assets/Hoon.png" class="img-rounded">
                             <div class="review-product-user"><a href="#" class="name">Hoon</a></div>
                             <div class="review-product-time">Sept 19, 2021<br/>15 day ago</div>
                         </div>
@@ -80,7 +80,7 @@
                     <hr/>
                     <div class="row">
                         <div class="col-sm-3">
-                            <img src="" class="img-rounded">
+                            <img src="../assets/satyam.png" class="img-rounded">
                             <div class="review-product-user"><a href="#" class="name">Satyam</a></div>
                             <div class="review-product-time">Sept 19, 2021<br/>15 day ago</div>
                         </div>
@@ -99,7 +99,7 @@
                     <hr/>
                     <div class="row">
                         <div class="col-sm-3">
-                            <img src="" class="img-rounded">
+                            <img src="../assets/kushal.png" class="img-rounded">
                             <div class="review-product-user"><a href="#" class="name">Kushal</a></div>
                             <div class="review-product-time">Sept 19, 2021<br/>15 day ago</div>
                         </div>
@@ -152,7 +152,8 @@ body {
 }
 #user-comment
 {
-    max-height: 20px;
+    min-height: 100px;
+    min-width: 950px;
 }
 .bold{
     font-weight:700;

@@ -37,7 +37,7 @@ export default {
     },
     methods: {
         ...mapActions('userAcc', ['login', 'logout']),
-        submitAction (e) {
+        submitAction () {
             this.submit = true;
             const { userName, password } = this;
             if (userName && password) {
@@ -45,7 +45,7 @@ export default {
             }
         },
         onClickEvent(){
-            window.location.href = "/";
+            window.location.href = "/home";
         }
     }
 };

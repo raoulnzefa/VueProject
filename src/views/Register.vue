@@ -5,7 +5,7 @@
         <!-- <div> -->
         <form @submit.prevent="accountSubmit">
             <div style="margin-top: 10px; text-align: center; display:flex;">
-            <div class="form-group" style="width: 500px; margin-left: 200px ; background-color: lightblue;">
+            <div class="form-group" style="width: 500px; margin-left: 500px ; background-color: lightblue;">
                 <label for="firstName">First Name</label>
                 <input type="text" v-model="user.firstName" v-validate="'required'" name="firstName" class="form-control" :class="{ 'is-invalid': submit && errors.has('firstName') }" />
                 <div v-if="submit && !firstName && errors.has('firstName')" class="invalid-feedback">{{ errors.first('firstName') }}</div>
@@ -17,7 +17,7 @@
             </div>
             </div>
             <div style="margin-top: 10px; text-align: center; display:flex;">
-            <div class="form-group" style="width: 500px; margin-left: 200px;  background-color: lightblue;">
+            <div class="form-group" style="width: 500px; margin-left: 500px;  background-color: lightblue;">
                 <label for="lastName">Email</label>
                 <input type="text" v-model="user.lastName" v-validate="'required'" name="lastName" class="form-control" :class="{ 'is-invalid': submit && errors.has('email') }" />
                 <div v-if="submit && errors.has('email')" class="invalid-feedback">{{ errors.first('email') }}</div>
@@ -29,7 +29,7 @@
             </div>
             </div>
             <div style="margin-top: 10px; text-align: center; display:flex;">
-            <div class="form-group" style="width: 500px; margin-left: 200px;  background-color: lightblue;">
+            <div class="form-group" style="width: 500px; margin-left: 500px;  background-color: lightblue;">
                 <label for="lastName">Address 1</label>
                 <input type="text" v-model="user.lastName" v-validate="'required'" name="lastName" class="form-control" :class="{ 'is-invalid': submit && errors.has('address1') }" />
                 <div v-if="submit && errors.has('address1')" class="invalid-feedback">{{ errors.first('address1') }}</div>
@@ -41,7 +41,7 @@
             </div>
             </div>
             <div style="margin-top: 10px; text-align: center; display:flex;">
-            <div class="form-group" style="width: 500px; margin-left: 200px;  background-color: lightblue;">
+            <div class="form-group" style="width: 500px; margin-left: 500px;  background-color: lightblue;">
                 <label for="lastName">City</label>
                 <input type="text" v-model="user.lastName" v-validate="'required'" name="lastName" class="form-control" :class="{ 'is-invalid': submit && errors.has('city') }" />
                 <div v-if="submit && errors.has('city')" class="invalid-feedback">{{ errors.first('city') }}</div>
@@ -53,7 +53,7 @@
             </div>
             </div>
             <div style="margin-top: 10px; text-align: center; display:flex;">
-            <div class="form-group" style="width: 500px; margin-left: 200px;  background-color: lightblue;">
+            <div class="form-group" style="width: 500px; margin-left: 500px;  background-color: lightblue;">
                 <label for="lastName">State/Province</label>
                 <input type="text" v-model="user.lastName" v-validate="'required'" name="lastName" class="form-control" :class="{ 'is-invalid': submit && errors.has('province') }" />
                 <div v-if="submit && errors.has('province')" class="invalid-feedback">{{ errors.first('province') }}</div>
@@ -65,7 +65,7 @@
             </div>
             </div>
             <div style="margin-top: 10px; text-align: center; display:flex;">
-            <div class="form-group" style="width: 500px; margin-left: 200px;  background-color: lightblue;">
+            <div class="form-group" style="width: 500px; margin-left: 500px;  background-color: lightblue;">
                 <label for="username">Username</label>
                 <input type="text" v-model="user.username" v-validate="'required'" name="username" class="form-control" :class="{ 'is-invalid': submit && errors.has('username') }" />
                 <div v-if="submit && errors.has('username')" class="invalid-feedback">{{ errors.first('username') }}</div>
@@ -113,7 +113,7 @@ export default {
     },
     methods: {
         ...mapActions('account', ['register']),
-        accountSubmit(e) {
+        accountSubmit() {
             this.submit = true;
             this.$validator.validate().then(valid => {
                 if (valid) {

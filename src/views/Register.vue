@@ -3,6 +3,8 @@
         <h3>sdjasd</h3>
         <h2>Register</h2>
         <!-- <div> -->
+        
+        <!-- below is the code for register form where values are checked with the help of vue features -->
         <form @submit.prevent="accountSubmit">
             <div style="margin-top: 10px; text-align: center; display:flex;">
             <div class="form-group" style="width: 500px; margin-left: 500px ; background-color: lightblue;">
@@ -112,6 +114,8 @@ export default {
         ...mapState('account', ['status'])
     },
     methods: {
+
+        //methods of the specific actions are written here
         ...mapActions('account', ['register']),
         accountSubmit() {
             this.submit = true;

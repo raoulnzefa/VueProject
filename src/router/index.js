@@ -8,6 +8,7 @@ import Register from "../views/Register.vue";
 
 Vue.use(VueRouter);
 
+//Below are the routes defined for each vue and the system will be routed accordingly
 const routes = [
   {
     path: "/",

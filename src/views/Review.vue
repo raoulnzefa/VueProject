@@ -1,5 +1,7 @@
 <template>
     <div class="home">
+
+        <!-- ------------------------------ code for the navigation bar starts from here ------------------------------ -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Y Mall</a>
@@ -54,7 +56,8 @@
         </div>
       </div>
     </nav>
-        <!-- <app-home></app-home> -->
+
+    <!-- ------------------------------ code for the navigation bar starts from here ------------------------------ -->
         <h1>Customer Rates and Reviews</h1>
 
         <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -73,11 +76,16 @@
                         <span class="fa fa-star marked"></span>
                         <span class="fa fa-star"></span>
                     </div>
+
+                    <!-- ---------------------------------- code is for writing user review starts ---------------------------------- -->
                     <div class="user-comment-block">
                         <textarea  id="user-comment" placeholder="Enter your review here"></textarea>
                     </div>
+                    <!-- ----------------------------------code is for writing user review ends ---------------------------------- -->
                 </div>
                 <div class="col-md-6">
+
+                    <!-- ----------------------------------code is for displaying the star wise counts starts ---------------------------------- -->
                     <h4>Rating breakdown</h4>
                     <div class="row">
                         <div class="align">
@@ -106,9 +114,12 @@
                         </div>
                         <div class="middle"><div class="horizontal-bar"><div class="bar-1"></div></div></div>
                     </div>
+
+                    <!-- ----------------------------------code is for displaying the star wise counts ends ---------------------------------- -->
                 </div>
             </div>
 
+            <!-- ----------------------------------code is for displaying the reviews of the users starts ---------------------------------- -->
             <div class="row">
             <div class="col-md-12">
                 <hr/>
@@ -172,10 +183,14 @@
                 </div>
             </div>
             </div>
+
+            <!-- ----------------------------------code is for displaying the reviews of the users starts ---------------------------------- -->
         </div>
     </div>
 </template>
 <style>
+
+/* below is the designing writing for the review page */
 #ratings
 {
     font-family: sans-serif;
@@ -246,6 +261,7 @@ body {
   color: orange;
 }
 
+/* code for defining the bar color  */
 .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
 .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
 .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
@@ -273,7 +289,6 @@ body {
   color: white;
 }
 
-/* Three column layout */
 .align {
   float: left;
   width: 15%;

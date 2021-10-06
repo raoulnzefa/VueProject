@@ -1,5 +1,7 @@
 <template>
   <div>
+
+    <!-- --------------------------- code for navigation bar starts form here --------------------------- -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Y Mall</a>
@@ -54,19 +56,12 @@
         </div>
       </div>
     </nav>
+
+    <!-- --------------------------- code for navigation bar ends here --------------------------- -->
+
     <main class="mt-3">
-      <!-- <div class="container">
-        <div class="row mb-2">
-          <div class="col-12">
-            <select class="form-select">
-              <option selected></option>
-              <option value="1">TV</option>
-              <option value="2">Labtop</option>
-              <option value="3">Others</option>
-            </select>
-          </div>
-        </div>
-      </div> -->
+      
+      <!-- --------------------------- displaying products from here --------------------------- -->
 
       <div id="cards" class="container">
         <div class="col-xl-3 col-lg-4 col-md-6">
@@ -339,7 +334,10 @@
             </div>
           </div>
         </div>
+        <!-- --------------------------- products ending here --------------------------- -->
       </div>
+
+      <!-- --------------------------- footer starts from here --------------------------- -->
       <footer class="mt-5 py-5 bg-dark">
         <div class="row">
           <div class="col-12 col-md">
@@ -406,10 +404,14 @@
           </div>
         </div>
       </footer>
+
+      <!-- --------------------------- footer ends from here --------------------------- -->
     </main>
   </div>
 </template>
 <style>
+
+/* css for the width of the cards */
 #cards
 {
   max-width: 1800px;

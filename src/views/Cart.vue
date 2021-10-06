@@ -1,5 +1,7 @@
 <template>
     <div class="container" style="max-width:100%;">
+
+        <!-- ------------------------------ code for the navigation bar starts from here ------------------------------ -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="width:100%;">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Y Mall</a>
@@ -54,6 +56,8 @@
         </div>
       </div>
     </nav>
+
+    <!-- ------------------------------ code for the navigation bar ends  here ------------------------------ -->
 	    <table id="cart" class="table table-hover table-condensed">
             <thead>
                 <tr>
@@ -65,6 +69,8 @@
                 </tr>
             </thead>
             <tbody>
+                 
+                <!-- below tr represents one table data -->
                 <tr>
                     <td data-th="Product">
                         <div class="row">
@@ -84,6 +90,7 @@
                         <button class="delete-btn"><img src="../assets/trash.png" alt="..." class="img-responsive"/></button>								
                     </td>
                 </tr>
+                <!-- below tr represents one table data -->
                 <tr>
                     <td data-th="Product">
                         <div class="row">
@@ -119,6 +126,8 @@
     </div>
 </template>
 <style>
+
+/* below is the designing code for the cart page */
 .table>tbody>tr>td, .table>tfoot>tr>td{
     vertical-align: middle;
 }

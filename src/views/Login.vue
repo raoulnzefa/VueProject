@@ -1,5 +1,7 @@
 <template>
     <div class="bg">
+
+        <!-- ------------------------ code for the login part ------------------------ -->
         <h2>sdjasd</h2>
         <h4>Login here for the entire new world of shopping..</h4>
         <form @submit.prevent="submitAction">
@@ -22,11 +24,13 @@
 </template>
 
 <script>
+
 // eslint-disable-next-line no-unused-vars
 import { mapState, mapActions } from 'vuex'
 export default {
     data () {
         return {
+            //data will be fetched from here
             userName: '',
             password: '',
             submit: false
@@ -35,6 +39,7 @@ export default {
     computed: {
         ...mapState('userAcc', ['status'])
     },
+    //writing methods for submit and login actions over here
     methods: {
         ...mapActions('userAcc', ['login', 'logout']),
         submitAction () {
@@ -51,6 +56,8 @@ export default {
 };
 </script>
 <style scoped>
+
+/* code for the designing part of the page */
 h2{
   color: transparent;
 }
